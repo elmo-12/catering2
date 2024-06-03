@@ -5,8 +5,9 @@ import Inicio from './vistas/inicio'
 import Contact from './components/contact'
 import Navbar from './components/navbar'
 import Menu from './vistas/menu'
-import Nosotros from './components/nosotros'
 import Footer from './components/footer'
+import Nosotros from './vistas/nosotros'
+
 function App () {
   return (
     <Router>
