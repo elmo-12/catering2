@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Inicio from './vistas/inicio'
 import Contact from './components/contact'
 import Navbar from './components/navbar'
-import Menu from './components/menu'
+import Menu from './vistas/menu'
 import Nosotros from './components/nosotros'
 import Footer from './components/footer'
 function App () {
