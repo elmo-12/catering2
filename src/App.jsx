@@ -1,7 +1,7 @@
 import './App.css'
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Inicio from './components/inicio'
+import Inicio from './vistas/inicio'
 import Contact from './components/contact'
 import Navbar from './components/navbar'
 import Menu from './components/menu'

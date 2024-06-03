@@ -1,6 +1,7 @@
 import Opciones from './opciones'
 import Principal from './principal'
 import Separador from './separador'
+import SSlider from './slider'
 
 function Nosotros () {
   return (
@@ -26,7 +27,7 @@ function Nosotros () {
         titulo='Las opiniones de nuestros clientes'
         subtitulo='Tus comentarios son importantes para nosotros, nos ayudan a servirte mejor'
       />
-      <h1>OPINIONES</h1>
+      <SSlider />
       <Opciones />
     </>
   )

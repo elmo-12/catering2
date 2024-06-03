@@ -1,0 +1,19 @@
+{
+  "opiniones": [
+    {
+      "img": "src\\img\\opiniones1.jpeg",
+      "autor": "Maria",
+      "contenido": "Elegí esta empresa para un evento de negocios y no me decepcionó. Su menú era variado y sabroso, y el servicio fue impecable. Recomiendo encarecidamente estos servicios de catering para cualquier evento."
+    },
+    {
+      "img": "src\\img\\opiniones2.jpeg",
+      "autor": "Patricia",
+      "contenido": "Lors d'un dîner à la maison, j'ai fait appel à Royer pour la première fois et je n'ai pas été déçue. Leur nourriture était délicieuse et présentée avec soin. Je n'hésiterai pas à utiliser leur service à nouveau."
+    },
+    {
+      "img": "src\\img\\opiniones3.jpeg",
+      "autor": "Pedro",
+      "contenido": "Nous avons été absolument ravis de travailler avec le traiteur Royer pour notre mariage. Leur attention aux détails et leur cuisine délicieuse ont rendu notre journée inoubliable. Merci à l'équipe de Royer pour leur soutien et leur expertise."
+    }
+  ]
+}
