@@ -1,0 +1,46 @@
+{
+  "cartas": [
+    {
+      "imagen": "src\\img\\maki.jpg",
+      "nombre": "Maki",
+      "precio": 19,
+      "descripcion": "Los makis son rollos tradicionales japoneses hechos de arroz y diversos ingredientes, a menudo envueltos en una hoja de alga nori.",
+      "informacion": "Menú para dos personas"
+    },
+    {
+      "imagen": "src\\img\\salmon.jpg",
+      "nombre": "Salmón",
+      "precio": 20,
+      "descripcion": "El salmón es un pescado graso y sabroso, que suele comerse crudo en sashimi o cocido en filetes.",
+      "informacion": "Salsa a elegir"
+    },
+    {
+      "imagen": "src\\img\\veloute.jpg",
+      "nombre": "Velouté",
+      "precio": 21,
+      "descripcion": "El velouté es una sopa suave y cremosa, a menudo preparada con verduras o hierbas para darle más sabor.",
+      "informacion": "Acompañado de pan casero"
+    },
+    {
+      "imagen": "src\\img\\burger.jpg",
+      "nombre": "Burger",
+      "precio": 22,
+      "descripcion": "Las hamburguesas son bocadillos hechos con carne picada, queso, lechuga y tomate, a menudo servidos entre dos rebanadas de pan.",
+      "informacion": "Pan casero y carne a la barbacoa"
+    },
+    {
+      "imagen": "src\\img\\lasaña.jpg",
+      "nombre": "Lasaña",
+      "precio": 23,
+      "descripcion": "La lasaña es un plato de origen italiano compuesto por capas de pasta, carne picada, salsa de tomate y queso.",
+      "informacion": "Receta tradicional"
+    },
+    {
+      "imagen": "src\\img\\bistec.jpg",
+      "nombre": "Bistec",
+      "precio": 24,
+      "descripcion": "El bistec es un filete de ternera cocinado en un asador o en una sartén, a menudo servido con patatas o verduras.",
+      "informacion": "Carne de primera calidad"
+    }
+  ]
+}
