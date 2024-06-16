@@ -1,6 +1,6 @@
 function Contenido () {
   return (
-    <div className='my-8 flex'>
+    <div className='my-8 flex mx-8'>
       <div className='w-1/2 h-[90vh]'>
         <img src='./src/img/nosotros.jpeg' alt='' className='h-full w-full object-cover' />
       </div>

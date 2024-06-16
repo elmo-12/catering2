@@ -1,12 +1,12 @@
 import React from 'react'
 import { FaFacebook, FaInstagram, FaTwitter, FaArrowRight, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa'
-import { FiMail } from 'react-icons/fi'
+import { BiMessageAltDetail } from 'react-icons/bi'
 
 const Footer = () => {
   return (
     <footer className='bg-red-200/50 text-white py-8 px-4 md:px-16'>
       <div className='flex flex-wrap justify-between'>
-        <div className='w-full md:w-1/2 lg:w-1/4 mb-4 md:mb-0'>
+        <div className='w-full md:w-1/2 lg:w-[25%] mb-4 md:mb-0'>
           <h2 className='text-lg font-bold mb-2 text-red-700 font-poppins'>Acerca de nosotros</h2>
           <p className='text-black font-nunito'>Para reforzar el compromiso con la calidad y la satisfacción del cliente, nuestro servicio de catering se compromete a utilizar ingredientes frescos y de primera calidad en la preparación de cada plato.</p>
           <div className='flex space-x-2 pt-4'>
@@ -21,7 +21,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className='w-full md:w-1/2 lg:w-1/4 mb-4 md:mb-0'>
+        <div className='w-full md:w-1/2 lg:w-[20%] mb-4 md:mb-0'>
           <h2 className='text-lg font-bold mb-2 text-red-700 font-poppins'>Especialidades</h2>
           <div className=''>
             <div className='flex items-center'>
@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='w-full md:w-1/2 lg:w-1/4 mb-4 md:mb-0'>
+        <div className='w-full md:w-1/2 lg:w-[25%] mb-4 md:mb-0'>
           <h2 className='text-lg font-bold mb-2 text-red-700 font-poppins'>Contactarnos</h2>
           <div className='flex md:flex-col'>
             <div className='flex items-center w-1/2'>
@@ -60,7 +60,7 @@ const Footer = () => {
               </div>
             </div>
             <div className='flex items-center w-1/2'>
-              <FiMail className='inline-block mr-4 text-red-700 text-3xl' />
+              <BiMessageAltDetail className='inline-block mr-4 text-red-700 text-3xl' />
               <div>
                 <p className='text-black font-nunito'>Correo electrónico</p>
                 <p className='text-red-700 font-nunito'>serviciodecatering@correo.com</p>
@@ -68,7 +68,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='w-full md:w-1/2 lg:w-1/5 mb-4 md:mb-0'>
+        <div className='w-full md:w-1/2 lg:w-[25%] mb-4 md:mb-0'>
           <h2 className='text-lg font-bold mb-2 text-red-700 font-poppins'>Ubicarnos</h2>
           <div id='map' className='h-32 md:h-36 bg-gray-600'>
             <div className='w-full h-full'>

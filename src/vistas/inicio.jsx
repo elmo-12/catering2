@@ -29,7 +29,7 @@ function Inicio () {
     <>
       <Principal2 />
       <Separador titulo='Nuestros platillos actuales' subtitulo='Preparados a la carta' />
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 py-8'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 py-8 mx-8'>
         {/* Mapeamos las cartas y renderizamos un componente Carta2 para cada una */}
         {cartas.slice(0, 6).map((carta) => (
           <MemoizedCarta2

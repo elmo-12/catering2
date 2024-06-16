@@ -32,7 +32,7 @@ function Menu () {
         titulo='Nuestro menú'
         subtitulo='Preparado a la carta'
       />
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-12 py-8'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-12 py-8 px-8'>
         {/* Mapeamos las cartas y renderizamos un componente Carta para cada una */}
         {cartas.slice(0, 6).map((carta) => (
           <Carta
